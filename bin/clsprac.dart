@@ -1,7 +1,7 @@
 // class 강좌
 // class를 생성할 때는 변수들의 타입을 꼭 만들어 주는게 좋다.
 class Player {
-  final String name;
+  String name;
   int xp, age;
   String team;
 
@@ -46,4 +46,10 @@ void main() {
   var player1 = Player.createBluePlayer(name: 'kyle', age: 33);
   // make positional arguments
   var player2 = Player.createRedPlayer("jia", 27);
+
+  var player3 = player1
+    ..name = 'jiaKim'
+    ..age = 28
+    ..team = 'yellow'
+    ..sayHello();
 }
