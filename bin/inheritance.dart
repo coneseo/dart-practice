@@ -11,7 +11,10 @@ enum Team { Blue, Red }
 class Player extends Human {
   final Team team;
 
-  Player({required this.team, required String name}) : super(name: name);
+  Player({
+    required this.team,
+    required String name,
+  }) : super(name: name);
 
   @override
   void sayHello() {

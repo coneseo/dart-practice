@@ -1,3 +1,6 @@
+// mixin의 조건은 생성자가 없는 것
+// mixin으로 만들어 놓은 것을 with 을 통해서 뺏어올 수 있다.
+
 class Strong {
   final double strengthLevel = 1500.99;
 }
