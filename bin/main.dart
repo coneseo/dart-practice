@@ -46,6 +46,8 @@ void main() {
   var greeting = 'Hello everyone, my name is $cone and I\'m ${myAge + 2}';
   print(greeting);
   collectionsFor();
+  var age = 18;
+  age = 19;
 }
 
 void collectionsFor() {
@@ -86,4 +88,7 @@ void setprac() {
   numbers.add(1);
   numbers.add(1);
   print(numbers);
+  textDate = '2023-04-04'
+  print('Total price ${textDate}');
+  print('Total price $textDate');
 }
