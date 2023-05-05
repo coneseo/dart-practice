@@ -1,11 +1,7 @@
-import 'dart:ffi';
-
 void main() {
   // let dart know this could be null
   String? nico = 'nico';
-  if (nico != null) {
-    print(nico.length);
-  }
+  print(nico.length);
 
   // late 변수, 변수 이름만 선언하고, 값은 나중에 설정할 수 있도록 만드는 변수
   late final String name;
@@ -88,7 +84,4 @@ void setprac() {
   numbers.add(1);
   numbers.add(1);
   print(numbers);
-  textDate = '2023-04-04'
-  print('Total price ${textDate}');
-  print('Total price $textDate');
 }
